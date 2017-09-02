@@ -1,0 +1,30 @@
+{
+  "name": "commentfarmer",
+  "version": "1.0.0",
+  "description": "A JavaScript Parser for JavaScript style comments.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jweinst1/commentfarmer.git"
+  },
+  "keywords": [
+    "parser",
+    "comments",
+    "text",
+    "files",
+    "comment",
+    "parsing",
+    "automata",
+    "states",
+    "js"
+  ],
+  "author": "Joshua Weinstein <jweinst1@berkeley.edu> (https://github.com/jweinst1)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jweinst1/commentfarmer/issues"
+  },
+  "homepage": "https://github.com/jweinst1/commentfarmer#readme"
+}

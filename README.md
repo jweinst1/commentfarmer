@@ -21,3 +21,24 @@ To initalize on instance of the parser,
 var ps = require('commentfarmer');
 var parser = new ps.JSCommentParser();
 ```
+
+to parse a string,
+
+```javascript
+parser.parse("var g = 7; //this line assigns a variable\n var h = 7 //so does this one\n");
+```
+
+to get the comments or clear them,
+
+```javascript
+console.log(parser.getComments()); // 'this line assigns a variable, so does this one'
+parser.clearComments();
+```
+
+## License
+
+This code is MIT licensed
+
+## Contribution
+
+Feel free to suggest changes or contribute
